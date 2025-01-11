@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breebrees Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="themeBtn" class="theme-btn">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    <div class="container">
+        <div class="timer">
+            <div class="time-display">
+                <div class="time-section">
+                    <input type="text" id="hours" value="00" readonly>
+                    <span class="colon">:</span>
+                    <input type="text" id="minutes" value="00" readonly>
+                    <span class="colon">:</span>
+                    <input type="text" id="seconds" value="00" readonly>
+                    <span class="colon">:</span>
+                    <input type="text" id="milliseconds" value="00" readonly>
+                </div>
+                <span class="label">❤️ Breebrees Stopwatch ❤️</span>
+            </div>
+            <div class="controls">
+                <button id="startBtn" class="btn">Start</button>
+                <button id="stopBtn" class="btn">Stop</button>
+                <button id="resetBtn" class="btn">Reset</button>
+            </div>
+        </div>
+        <div class="label" style="margin-top: 2rem;">Made by Beben</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
